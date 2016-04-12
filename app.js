@@ -93,7 +93,7 @@ nconf.add('connections', { type: 'file', file: connection_config });
 nconf.add('app', { type: 'file', file: app_config });
 
 // set app defaults
-var app_host = '0.0.0.0';
+var app_host = 'localhost';
 var app_port = 1234;
 
 // get the app configs and override if present

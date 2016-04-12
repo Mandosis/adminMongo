@@ -7,7 +7,7 @@ body {
     }
 }
 
-.new_json, .edit_json { 
+.new_json, .edit_json {
     position: relative;
     height: 350px;
     width: 100%;
@@ -99,8 +99,8 @@ body {
     z-index: 9999;
     padding-top: 10px;
     height: 50px;
-    bottom: 0px; 
-    width: 100%; 
+    bottom: 0px;
+    width: 100%;
     text-align: center;
     font-size: 22px;
     color: white;
@@ -112,4 +112,209 @@ body {
 
 .notify_message-danger{
     background-color: #e74c3c;
+}
+
+
+/***********************************
+ *                                 *
+ *       My modifications          *
+ *                                 *
+ **********************************/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body {
+  background: #FFF;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #006CBC;
+}
+
+a:hover {
+  color: #3AF;
+}
+
+.navbar-default {
+  background: #FFF;
+  border-bottom: 1px solid #DDD;
+  height: 80px;
+  color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Sidebar */
+
+#sidebar {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  background: #F5F5F5;
+  border-right: 1px solid #DDD;
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+  position: fixed;
+  color: #333;
+  overflow-y: auto;
+}
+
+#sidebar .list-group-item {
+  background: none;
+  border-radius: none;
+  border: none;
+  border-bottom: 1px solid #EBEBED;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#sidebar .coll_indent {
+  background: #FFF;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#sidebar .list-group-item-primary {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#sidebar a {
+  color: #333;
+}
+
+#main-view {
+  float: right;
+  margin-top: 100px;
+  width: calc(100% - 300px);
+}
+
+/* Navbar */
+
+.navbar-header {
+  height: 80px;
+  padding-top: 0;
+  margin-left: 40px !important;
+}
+
+#logo {
+  color: #333;
+  margin-top: -5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #757575;
+    padding: 10px;
+}
+
+.navbar-default .navbar-nav>li {
+  border: 1px solid #757575;
+  border-radius: 3px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 80px;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: border 0.2s ease-in;
+}
+
+.navbar-default .navbar-nav>li:hover {
+  border: 1px solid #69B241;
+}
+
+.navbar-default .navbar-nav>li a {
+  transition: color 0.2s ease-in;
+}
+
+.navbar-default .navbar-nav>li a:hover {
+  color: #69B241;
+}
+
+.list-group li {
+  color: #333;
+}
+
+.banner-heading {
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-weight: 300 !important;
+}
+
+.col-lg-10:nth-child(first) {
+  width: 100%;
+  padding-left: 0px;
+}
+
+.col-lg-10:nth-child(2) {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.breadcrumb {
+  margin-left: 0px;
+  padding-left: 2px;
+  background: none;
+  color: #454545;
+  margin-top: -130px;
+  position: absolute;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.breadcrumb a {
+  color: #006CBC;
+}
+
+.breadcrumb>li+li:before {
+    content: ">\00a0";
+    padding: 0 5px;
+    color: #454545;
+}
+
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child>.btn,
+.input-group-btn:first-child>.btn-group>.btn,
+.input-group-btn:first-child>.dropdown-toggle,
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:last-child>.btn-group:not(:last-child)>.btn {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-right: none;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #282C34 !important;
+    color: #AAB1BE !important;
+    border: none;
+    border-radius: 0;
+}
+
+.hljs-string, .hljs-doctag {
+    color: #96C177 !important;
+}
+
+.hljs-number, .hljs-literal, .hljs-variable, .hljs-template-variable, .hljs-tag .hljs-attr {
+    color: #D39B66 !important;
+}
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    font-size: 12px;
+    height: 35px;
+}
+
+.normalize-page {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
