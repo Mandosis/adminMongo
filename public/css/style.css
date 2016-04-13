@@ -247,6 +247,10 @@ a:hover {
   font-weight: 300 !important;
 }
 
+.pull-up {
+  margin-top: 0;
+}
+
 .col-lg-10:nth-child(first) {
   width: 100%;
   padding-left: 0px;

@@ -62,7 +62,7 @@
     <div id="main-view" class="container-fluid {{#if sidebar_list}}{{else}}connections-view{{/if}}">
         <div class="row">
             {{#if conn_name}}
-				<h2 class="text-center banner-heading">
+				<h2 class="text-center banner-heading {{#if coll_name}}{{else}}pull-up{{/if}}">
 					Database:
 					{{#if db_name}}
 						<a href="/{{conn_name}}/{{db_name}}">{{db_name}}</a>
