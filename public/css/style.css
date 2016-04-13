@@ -294,11 +294,11 @@ a:hover {
   border-right: none;
 }
 
+/* Document View */
 .hljs {
     display: block;
     overflow-x: auto;
     padding: 0.5em;
-    color: #333;
     background: #282C34 !important;
     color: #AAB1BE !important;
     border: none;
@@ -316,6 +316,7 @@ a:hover {
 .hljs-tag .hljs-attr {
     color: #D39B66 !important;
 }
+
 
 button {
   outline: none !important;

@@ -1,16 +1,16 @@
 $(document).ready(function() {
     var editor = ace.edit("json");
-    editor.setTheme("ace/theme/github");
+    editor.setTheme("ace/theme/twilight");
     editor.session.setMode("ace/mode/json");
     editor.setFontSize(14);
     editor.getSession().setUseWorker(false);
     editor.$blockScrolling = Infinity;
-    
+
     $("#submit_json").click(function() {
         try {
             // convert BSON string to EJSON
             var ejson = toEJSON.serializeString(editor.getValue());
-            
+
             $.ajax({
                 method: "POST",
                 contentType: 'application/json',
