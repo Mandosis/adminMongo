@@ -370,3 +370,22 @@ a:hover {
   color: #333;
   background-color: #F5F5F5;
 }
+
+.edit-icon {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Connections View */
+.connections-view {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: initial !important;
+}
+
+.connections-view h2 {
+  margin-bottom: 40px;
+}
