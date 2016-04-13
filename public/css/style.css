@@ -318,3 +318,19 @@ a:hover {
   margin-left: 0 !important;
   padding-left: 0 !important;
 }
+
+/* Inputs */
+.form-control, input {
+    border-width: 1px;
+    border-color: #DDD;
+    background: #FFF;
+}
+
+.form-control:focus {
+    border-width: 1px;
+    border-color: #69B241;
+}
+
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 4;
+}
