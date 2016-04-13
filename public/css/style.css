@@ -305,8 +305,16 @@ a:hover {
     color: #96C177 !important;
 }
 
-.hljs-number, .hljs-literal, .hljs-variable, .hljs-template-variable, .hljs-tag .hljs-attr {
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
     color: #D39B66 !important;
+}
+
+button {
+  outline: none !important;
 }
 
 .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
@@ -371,14 +379,6 @@ a:hover {
   background-color: #F5F5F5;
 }
 
-.edit-icon {
-  background: none;
-  border: none;
-  color: #333;
-  font-size: 24px;
-  margin-right: 10px;
-}
-
 /* Connections View */
 .connections-view {
   margin-left: auto !important;
@@ -388,4 +388,33 @@ a:hover {
 
 .connections-view h2 {
   margin-bottom: 40px;
+}
+
+/* Edit Icon */
+.edit-icon:focus {
+    color: #000;
+    background-color: #FFF;
+    border-color: #FFF;
+    outline: none;
+}
+
+.edit-icon:hover {
+    color: #000;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.edit-icon:active:focus {
+    color: #000;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.edit-icon {
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 24px;
+  margin-right: 10px;
+  transition: color 0.2s ease-in;
 }
