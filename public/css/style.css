@@ -317,6 +317,40 @@ a:hover {
     color: #D39B66 !important;
 }
 
+/* Override Ace Twilight Theme */
+.ace-twilight {
+  color: #ACB3C0 !important;
+  background: #282C34 !important;
+}
+.ace-twilight .ace_variable {
+    color: #E26C75 !important;
+}
+
+.ace-twilight .ace_string {
+  color: #96C177 !important;
+}
+
+.ace-twilight .ace_numeric {
+  color: #D39B66 !important;
+}
+
+.ace-twilight .ace_print-margin {
+    width: 1px;
+    background: #3C4049 !important;
+}
+
+/*.ace-twilight .ace_gutter {
+    background: #282C34 !important;
+    color: #ABB3C0 !important;
+}*/
+
+.ace_cursor {
+  color: #528BFF !important;
+}
+
+.ace_br1, .ace_br12 {
+  border-radius: 0 !important;
+}
 
 button {
   outline: none !important;
